@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/confluentinc/confluent-kafka-go/kafka"
+	"github.com/confluentinc/confluent-kafka-go/v2/kafka"
 )
 
 type Producer struct {

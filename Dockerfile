@@ -7,5 +7,5 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /app
 COPY . .
 RUN go mod download
-RUN go build -o producer ./cmd/producer
+RUN go build -o producer ./cmd/kafka/main.go
 CMD ["./producer"]
